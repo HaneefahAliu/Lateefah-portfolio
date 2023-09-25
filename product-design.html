@@ -1,14 +1,11 @@
 <!DOCTYPE html>
-<html lang="en-US">
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lateefah Aliu</title>
 
-    <!-- style -->
+    <!-- bootstrap style -->
     <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- fonts -->
@@ -22,11 +19,10 @@
     <link href="assets/lib/css-hamburgers/dist/hamburgers.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
 </head>
-
 <body>
     <main>
-         <!-- navbar -->
-         <div class="znav-container znav-fixed py-1" id="znav-container">
+        <!-- navbar -->
+        <div class="znav-container znav-fixed py-1" id="znav-container">
             <div class="container">
 
                 <!-- responsive icon -->
@@ -45,7 +41,7 @@
                     <!-- navbar menu -->
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav ml-auto">
-                            <li><a class="active" href="product-design.html" class="text-uppercase">Product Design</a></li>
+                            <li><a href="product-design.html" class="active text-uppercase">Product Design</a></li>
                             <li><a href="illustration.html" class="text-uppercase">illustrations</a></li>
                             <li><a href="motion.html" class="text-uppercase">motion</a></li>
                         </ul>
@@ -57,131 +53,105 @@
                 </nav>
             </div>
         </div>
+        <!-- end of navbar -->
 
-        <!-- projects -->
+        <!-- body -->
+
+        <!-- project -->
         <section>
-            <div class="container px-5 py-7">
-                <h5 class="fw-700 fs-40 pt-6">Projects</h5>
+            <div class="container px-5 py-5">
+                <p class="fs-40 fw-700 pt-6">Projects</p>
+                <!-- projects row  -->
+                <div class="row mt-3">
 
-                <!-- immersive lab -->
-                <div class="row mt-3 pb-6">
-                    <!-- image -->
-                    <div class="col-md-6 pt-5">
-                        <div class="container">
-                            <img src="assets/images/IL-PD.png" alt='immersive lab image' width='100%' class="img-fluid">
-                        </div>
-                    </div>
-
-                     <!-- description -->
-                    <div class="col-md-6 pt-5">
-                        <h4 class="fw-600 fs-24 caps">Immersive Lab</h4>
-                        <h6 class="mt-3 mb-5 fw-400 fs-18">Continually test, measure and improve human cyber capabilities—with a single platform</h6>
-                        <p class="mt-3 mb-4 fw-400 fs-14"><span class="light">Role:</span> Visual design, Interaction design, Motion Design, Prototyping, Illustration.</p>
-                        <p class="mt-3 mb-4 fw-400 fs-14"><span class="light">Tools:</span> Figma, Illustrator, After Effects.</p>
-                        <a class="btn btn-outline-dark btn-underline btn-sm" href="immersive-lab.html">
-                            <span class=" fw-400 fs-18">See Case Study</span>
-                            <i class="zmdi zmdi-arrow-right-top mr-2 fs-18"></i>
+                    <!-- immersive lab -->
+                    <div class="col-md-6 pb-5 project">
+                        <a href="immersive-lab.html">
+                            <img src="assets/images/ImmersiveLab.png">
+                            <h3 class="fw-700 fs-24 pt-4">IMMERSIVE LABS</h3>
+                            <p class="fs-18 pt-2">VISUAL DESIGN  |  PROTOTYPING</p>
+                            <p class="color-6 fs-16">Improving human cyber capabilities through real-time measurement and training.</p>
                         </a>
                     </div>
-                </div>
-
-                <!-- cancer care -->
-                <div class="row mt-3 pb-6">
-                     <!-- description -->
-                    <div class="col-md-6 pt-5">
-                        <h4 class="fw-600 fs-24 caps">Cancer care</h4>
-                        <h6 class="mt-3 mb-5 fw-400 fs-18">CancerCare is a mobile application designed to help people with cancer manage their health better by allowing them add their medications, appointments, keep track of their symptoms, mood and body vitals easily and sending them reminders often to record them to ensure they don’t forget, as well as a way to find articles on cancer.</h6>
-                        <p class="mt-3 mb-4 fw-400 fs-14"><span class="light">Role:</span>User research, Visual design, Interactive design, Information architecture, Prototyping, Testing.</p>
-                        <p class="mt-3 mb-4 fw-400 fs-14"><span class="light">Tools:</span> Pen and Paper, Figma, OptimalSort, Maze.</p>
-                        <a class="btn btn-outline-dark btn-underline btn-sm" href="cancercare.html">
-                            <span class=" fw-400 fs-18">See Case Study</span>
-                            <i class="zmdi zmdi-arrow-right-top mr-2 fs-18"></i>
+                    <!-- end of immersive lab -->
+                    
+                    <!-- cancer care -->
+                    <div class="col-md-6 project">
+                        <a href="cancercare.html">
+                            <img src="assets/images/CancerCare.png">
+                            <h3 class="fw-700 fs-24 pt-4">CANCER CARE</h3>
+                            <p class="fs-18 pt-2">UX DESIGN  |  RESEARCH  |  PROTOTYPING  |  TESTING</p>
+                            <p class="color-6 fs-16">Research and designing an app to aid health management  for  Cancer patients.</p>
                         </a>
                     </div>
+                    <!-- end of cancer care -->
 
-                     <!-- image -->
-                     <div class="col-md-6 pt-5">
-                        <div class="container">
-                            <img src="assets/images/CC-PD.png" alt='cancercare image' width='100%' class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- homely -->
-                <div class="row mt-3 pb-6">
-                    <!-- image -->
-                    <div class="col-md-6 pt-5">
-                        <div class="container">
-                            <img src="assets/images/homely-PD.png" alt='homely image' width='100%' class="img-fluid">
-                        </div>
-                    </div>
-
-                     <!-- description -->
-                    <div class="col-md-6 pt-5">
-                        <h4 class="fw-600 fs-24 caps">homely</h4>
-                        <h6 class="mt-3 mb-5 fw-400 fs-18">Homely is an integrated facility management application that allows residents communicate with facility managers as well as shop for conviniences with ease. </h6>
-                        <p class="mt-3 mb-4 fw-400 fs-14"><span class="light">Role:</span> Visual design, Interactive design, Prototyping.</p>
-                        <p class="mt-3 mb-4 fw-400 fs-14"><span class="light">Tools:</span> Figma, Pen and Paper.</p>
-                        <a class="btn btn-outline-dark btn-underline btn-sm" href="homely.html">
-                            <span class=" fw-400 fs-18">See Case Study</span>
-                            <i class="zmdi zmdi-arrow-right-top mr-2 fs-18"></i>
+                    <!-- voice it -->
+                    <div class="col-md-6 pb-5 project">
+                        <a href="voice-it.html">
+                            <img src="assets/images/VoiceIt.png">
+                            <h3 class="fw-700 fs-24 pt-4">VOICE IT</h3>
+                            <p class="fs-18 pt-2">UX DESIGN  |  RESEARCH  |  PROTOTYPING  |  TESTING</p>
+                            <p class="color-6 fs-16">Researching how speech Interaction as an input method can be used to used to support design work.</p>
                         </a>
                     </div>
-                </div>
+                    <!-- end of voice it -->
 
-                <!-- gameboard -->
-                <div class="row mt-3 pb-2">
-                    <!-- description -->
-                    <div class="col-md-6 pt-5">
-                        <h4 class="fw-600 fs-24 caps">gameboard</h4>
-                        <h6 class="mt-3 mb-5 fw-400 fs-18">GameBoard is a web application with multiple board games where people can play against a computer or their friends with a specific aim to address accessibility challenges in games and provide a solution. </h6>
-                        <p class="mt-3 mb-4 fw-400 fs-14"><span class="light">Role:</span> User research, Visual design, Interactive  design, Accessibility, Interactive design, Prototyping, Testing.</p>
-                        <p class="mt-3 mb-4 fw-400 fs-14"><span class="light">Tools:</span> Pen & Paper, Adobe XD</p>
-                        <a class="btn btn-outline-dark btn-underline btn-sm" href="gameboard.html">
-                            <span class=" fw-400 fs-18">See Case Study</span>
-                            <i class="zmdi zmdi-arrow-right-top mr-2 fs-18"></i>
+                    <!-- homely -->
+                    <div class="col-md-6 project">
+                        <a href="homely.html">
+                            <img src="assets/images/Homely.png">
+                            <h3 class="fw-700 fs-24 pt-4">HOMELY</h3>
+                            <p class="fs-18 pt-2"> VISUAL DESIGN  |  PROTOTYPING</p>
+                            <p class="color-6 fs-16">Designing interfaces that help bridge the gaps in facility management for renters and managers.</p>
                         </a>
                     </div>
+                    <!-- end of homely -->
 
-                    <!-- image -->
-                    <div class="col-md-6 pt-5">
-                        <div class="container">
-                            <img src="assets/images/GB-PD.png" alt='immersive lab image' width='100%' class="img-fluid">
-                        </div>
+                    <!-- game board -->
+                    <div class="col-md-6 project">
+                        <a href="gameboard.html">
+                            <img src="assets/images/GameBoard.png">
+                            <h3 class="fw-700 fs-24 pt-4">GAME BOARD</h3>
+                            <p class="fs-18 pt-2"> VISUAL DESIGN  |  PROTOTYPING</p>
+                            <p class="color-6 fs-16">Designing interfaces that help bridge the gaps in facility management for renters and managers.</p>
+                        </a>
                     </div>
+                    <!-- end of game board -->
                 </div>
-
+                <!-- end of projects row  -->
             </div>
+
+            <!-- divider -->
+            <div class="border-bottom"></div>
         </section>
-
-
-
-        <!-- divider -->
-        <div class="border-bottom"></div>
+        <!-- end of project -->
 
         <!-- footer -->
-        <section class="py-6 px-6">
-            <div class="container">
+        <section>
+            <div class="container py-5">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="pt-2 d-flex color-7">
-                            <a class="color-7 pr-5" href="https://www.behance.net/haneefahhh" target="_blank" class="mr-3"><i class="zmdi zmdi-email fs-24"></i></a>
-                            <a class="color-7 pr-5" href="https://twitter.com/haneeefahhh" target="_blank" class="mr-3"><i class="zmdi zmdi-dribbble fs-24"></i></a>
-                            <a class="color-7 pr-5" href="https://dribbble.com/Haneefahhh" target="_blank" class="mr-3"><i class="zmdi zmdi-linkedin-box fs-24"></i></a>
-                            <a class="color-7 pr-5" href="http://linkedin.com/in/haneefah-aliu-6a8a21160" target="_blank" class="mr-3"><i class="zmdi zmdi-instagram fs-24"></i></a>
+                            <a class="color-7 pr-5" href="mailto:larhtyfarh@gmail.com" target="_blank" class="mr-3"><i class="zmdi zmdi-email fs-24"></i></a>
+                            <a class="color-7 pr-5" href=" https://dribbble.com/Larhtyfarh" target="_blank" class="mr-3"><i class="zmdi zmdi-dribbble fs-24"></i></a>
+                            <a class="color-7 pr-5" href="https://www.linkedin.com/in/lateefahaliu" target="_blank" class="mr-3"><i class="zmdi zmdi-linkedin-box fs-24"></i></a>
+                            <a class="color-7 pr-5" href=" https://instagram.com/larhtyfarhart" target="_blank" class="mr-3"><i class="zmdi zmdi-instagram fs-24"></i></a>
                         </div>
                     </div>
                     <div class="col-md-6 justify-content-md-end d-flex mt-3 mt-md-0 pt-2">
-                        <p class="fw-400 fs-16">Lateefah Aliu - 2022</p>
+                        <p class="fs-16">Lateefah Aliu - 2023</p>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- footer -->
 
+        <!-- end of body -->
     </main>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- bootstrap script  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

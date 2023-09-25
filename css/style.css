@@ -24,11 +24,17 @@
     src: url("/assets/fonts/euclidCircular/Euclid-Circular-B-Bold.ttf") format("truetype");
     font-weight: 700;
 }
+/* end of font */
+
 
 /* General style */
 html {
     font-size: 16px;
     overflow-x: hidden;
+}
+
+* {
+    outline: none !important
 }
 
 body {
@@ -42,18 +48,24 @@ body {
     font-size: 1rem
 }
 
-a {
-    color: #fff;
-    transition: all 0.2s ease-in-out;
-    text-decoration: none;
-}
-
-* {
-    outline: none !important
-}
-
 img {
     max-width: 100%;
+}
+
+a {
+    color: #FFF;
+}
+
+a:hover {
+    color: #FFF;
+    opacity: .7;
+}
+
+iframe {
+    border: none;
+    width: 100%;
+    height: 600px;
+    overflow:  auto;
 }
 
 .container {
@@ -61,16 +73,13 @@ img {
     z-index: 1
 }
 
-.rotate {
-    transform: rotate(-7deg);
-}
-
 .border-bottom {
     border-bottom: 1px solid #fff;
-    padding: 20px;
     width: 70%;
     margin: auto;
 }
+/* end of General style */
+
 
 /* Navigation */
 .znav-container {
@@ -103,6 +112,7 @@ img {
     transition: all 0.2s ease-in-out;
     padding-left: 0;
     padding-right: 0;
+    margin-top: 24px;
     line-height: 1.5;
 }
 
@@ -238,58 +248,37 @@ img {
 .overflow-hidden {
     overflow: hidden
 }
+/* end of Navigation */
+
+
+/* Featured Projects */
+.project a {
+    color: #fff;
+    display: block;
+    transition: all 0.2s ease-in-out;
+}
+.project a:hover {
+    text-decoration: none;
+    opacity: .5;
+}
+/* end of Featured Projects */
+
 
 /* spacings */
 .pt-6 {
-    padding-top: 7rem;
-}
-
-.pb-6 {
-    padding-bottom: 7rem;
-}
-
-.pr-6 {
-    padding-right: 7rem;
-}
-
-.px-6 {
-    padding-left: 5rem !important;
-    padding-right: 7rem !important;
-}
-
-.py-6 {
-    padding-top: 2rem !important;
-    padding-bottom: 2rem !important
-}
-
-.py-7 {
-    padding-top: 5rem !important;
-    padding-bottom: 7rem !important
-}
-
-.pt-7 {
     padding-top: 10rem;
 }
 
+.pt-7 {
+    padding-top: 16rem;
+}
+/* end of spacings */
+
+
+
 /* Text Styles and weight */
-.fw-400 {
-    font-weight: 400 !important
-}
-
-.fw-500 {
-    font-weight: 500 !important
-}
-
-.fw-600 {
-    font-weight: 600 !important
-}
-
-.fw-700 {
-    font-weight: 700 !important
-}
-
-.fs-14 {
-    font-size: 14px !important;
+.fs-12 {
+    font-size: 12px !important;
 }
 
 .fs-16 {
@@ -316,15 +305,20 @@ img {
     font-size: 48px !important;
 }
 
-.caps {
-    text-transform: uppercase !important;
+.fs-60 {
+    font-size: 60px !important;
+}
+
+.fw-700 {
+    font-weight: 700 !important
 }
 
 .light {
     font-family: 'Roboto', sans-serif !important;
 }
+/* end of Text Styles and weight */
 
-/* color */
+/* colors */
 .color-6 {
     color: #A5A5A5 !important
 }
@@ -334,14 +328,27 @@ img {
 }
 
 .color-8 {
-    color: #F57F22 !important
+    color: #50B9FF !important
 }
 
 .color-9 {
     color: #636363 !important
 }
+/* end of colors */
 
+
+/* contact  */
 .contact {
-    background-color: #fff;
+    background-color: #FFF;
     color: #000;
 }
+
+.contact a {
+    color: #000;
+}
+
+.contact a:hover {
+    color: #2E56E4;
+    opacity: 1;
+}
+/* end of contact  */
