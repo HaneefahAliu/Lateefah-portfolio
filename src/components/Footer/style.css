@@ -1,0 +1,66 @@
+.footer {
+    background-color: #000;
+    padding-top: 60px;
+    padding-bottom: 32px;
+}
+
+.links {
+    padding-bottom: 80px;
+}
+
+.groupHeading {
+    font-size: 14px;
+    color: #A5A5A5;
+}
+
+.groupItem {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.heading {
+    font-weight: bolder;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.btn a {
+    border-radius: 4px;
+    padding: 16px 24px;
+    text-decoration: none;
+}
+
+.btnOutline {
+    color: #FFF;
+    border: 1px solid #FFF;
+    margin-right: 20px;
+}
+
+.btnFilled {
+    background-color: #FFF;
+    color: #000;
+}
+
+.navigation-link a {
+    text-decoration: underline;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navigation-link a:hover {
+    opacity: 0.6;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.social a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 32px;
+    align-items: flex-end;
+}
+
+.social a:hover {
+    opacity: 0.6;
+}
