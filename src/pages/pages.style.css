@@ -142,22 +142,28 @@ ul li {
     padding: 12px 0;
 }
 
-.previousBtn {
-    color: #636363;
-}
-
 .previousBtn i {
     margin-right: 20px;
     font-size: 18px;
 }
 
+.previousBtn a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 .nextBtn i {
     margin-left: 20px;
+    font-size: 18px;
 }
 
 .nextBtn a {
     text-decoration: none;
     color: #FFFFFF;
+}
+
+.grey {
+    color: #636363;
 }
 /* End of Project Details */
 

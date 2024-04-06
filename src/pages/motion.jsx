@@ -1,8 +1,10 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import Footer from '../components/Footer';
-
 import ImmersiveLab from '../assets/images/IL-cover.png';
+
+import './pages.style.css';
 
 function Motion() {
     return (
@@ -18,11 +20,11 @@ function Motion() {
                 <div className="row pt-5">
                     <div className="col-md-6">
                         <p className="pageDescription">TEAM</p>
-                        <p className="boldText">UX team, Product Manager, Engineers</p>
+                        <p className="boldText">UX team, Product Manager</p>
                     </div>
                     <div className="col-md-6">
                         <p className="pageDescription">MY ROLE</p>
-                        <p className="boldText">Visual Design, Interaction Design, Motion design, Prototyping</p>
+                        <p className="boldText"> Motion design, Prototyping</p>
                     </div>
                 </div>
                 <div className="border-bottom"></div>
@@ -50,18 +52,18 @@ function Motion() {
             </div>
 
             <div className="container pt-5">
-                <div className="row pb-5 previousBtn">
-                    <div className="col-md-6 d-flex mt-3 mt-md-0">
+                <div className="row pb-5">
+                    <div className="col-md-6 d-flex mt-3 mt-md-0 previousBtn grey">
                         <p>
                             <i className="zmdi zmdi-arrow-left"></i>
                             <span className="fw-400 fs-18 caps">Previous</span>
                         </p>
                     </div>
                     <div className="col-md-6 justify-content-md-end d-flex mt-3 mt-md-0 nextBtn">
-                        <a href="">
+                        <NavLink to="/motion/stanbic">
                             <span>Next</span>
                             <i className="zmdi zmdi-arrow-right ml-3 fs-18"></i>
-                        </a>
+                        </NavLink>
                     </div>
                 </div>
             </div>

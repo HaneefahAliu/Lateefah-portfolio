@@ -30,7 +30,7 @@ const Navbar = () => {
                     <NavLink to="/illustration">Illustration</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/motion">Motion</NavLink>
+                    <NavLink to="/motion/immersive-lab">Motion</NavLink>
                 </li>
             </ul>
             <ul className={menuOpen ? "open" : ""}>
