@@ -1,0 +1,243 @@
+/* Home */
+.headerText {
+    font-size: 40px;
+    padding: 100px 0 40px 0;
+    font-weight: bolder;
+}
+
+.bodyText {
+    font-size: 24px;
+    padding-bottom: 40px;
+}
+
+.categoryTitle {
+    font-size: 24px;
+    font-weight: bolder;
+    padding-top: 60px;
+}
+/* End of Home */
+
+/* Project Card */
+.projectHeading {
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 100px;
+}
+
+.projectGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.projectCard {
+    width: 50%; 
+    height: 500px;
+    margin-bottom: 80px;
+    transition: transform 0.5s ease-in-out; 
+}
+
+.projectCard:hover {
+    transform: scale(0.95);
+    opacity: .7;
+}
+
+.projectLink {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.projectImage {
+    height: 350px;
+}
+
+.projectTitle {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 24px;
+}
+
+.projectDesc {
+    color: #A5A5A5;
+    padding-top: 16px;
+    font-size: 18px;
+    width: 500px;
+}
+
+.projectTag {
+    background-color: #616E7B;
+    color: #FFF;
+    border-radius: 1rem;
+    padding: 6px 18px;
+    margin: 16px 8px 0 0;
+    display: inline-block; 
+    font-size: 12px;
+}
+/* End of Project Card */
+
+
+/* About */
+.aboutHeading {
+    font-weight: bold;
+    padding-bottom: 24px;
+}
+
+.aboutBody {
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+
+.aboutCard {
+    padding: 60px 0 80px 0;
+}
+
+.aboutImg img {
+    width: 500px;
+    height: 650px;
+}
+
+.socialIcons a {
+    color: #FFFFFF;
+    padding: 16px 60px 0 0;
+    font-size: 24px;
+}
+
+.socialIcons a:last-child {
+    font-size: 20px;
+}
+/* End of About */
+
+/* Project Details */
+.pageHeading {
+    font-size: 24px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.pageDescription {
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.border-bottom {
+    color: #FFFFFF;
+    opacity: .5;
+    padding: 24px 0;
+}
+
+.boldText {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.large-text {
+    font-weight: bolder;
+    font-size: 32px;
+    padding: 20px 0 16px 0;
+}
+
+ul li {
+    font-size: 16px;
+    padding: 12px 0;
+}
+
+.previousBtn {
+    color: #636363;
+}
+
+.previousBtn i {
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.nextBtn i {
+    margin-left: 20px;
+}
+
+.nextBtn a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+/* End of Project Details */
+
+
+
+/* 
+
+
+
+
+
+
+
+.text-link {
+    color: #50B9FF;
+    text-decoration: underline;
+}
+
+.switchBtn {
+    color: #FFFFFF;
+    
+}
+
+.groupHead {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+.pageHeading {
+    font-size: 24px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.pageDescription {
+    font-weight: 200;
+    font-size: 14px;
+    /* padding-bottom: 20px; */
+/* }
+
+.border-bottom {
+    color: #FFFFFF;
+    opacity: .5;
+    padding: 24px 0;
+}
+
+.large-text {
+    font-weight: bolder;
+    font-size: 32px;
+    padding: 20px 0 16px 0;
+}
+
+.text-link {
+    color: #50B9FF;
+    text-decoration: underline;
+}
+
+.switchBtn {
+    color: #FFFFFF;
+    
+}
+
+.headingText {
+    font-size: 32px;
+    padding: 60px 0 40px 0;
+}
+
+.illustrationImg {
+    margin-bottom: 40px;
+}
+
+
+
+.cardLink {
+    text-decoration: none;
+}  */ 
+

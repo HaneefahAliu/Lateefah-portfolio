@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Voice = () => {
+const VoiceIt = () => {
     return (
         <h2>Voice</h2>
     )
 }
 
-export default Voice;
+export default VoiceIt;
