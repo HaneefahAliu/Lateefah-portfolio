@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import './pages.style.css';
 
@@ -11,6 +12,9 @@ import image3 from '../assets/images/IL3.png';
 import image4 from '../assets/images/IL4.png';
 import image5 from '../assets/images/IL5.png';
 import image6 from '../assets/images/IL6.png';
+import gif1 from '../assets/gifs/immersive1.gif'
+import gif2 from '../assets/gifs/immersive2.gif'
+import gif3 from '../assets/gifs/immersive3.gif';
 
 const ImmersiveLab = () => {
     return (
@@ -76,10 +80,7 @@ const ImmersiveLab = () => {
                 </ul>
 
                 <img src={image5} />
-                <div className="embed-responsive embed-responsive-16by9">
-                    <iframe src="https://drive.google.com/file/d/1EW0x_aiE6uOV4saavbY1PmanDzK9rQjA/preview" width="100%" height="600" allow="autoplay"></iframe>
-                </div>
-
+                <img style={{ width: '100%' }} src={gif3} />
                 <div className="border-bottom"></div>
             </div>
             
@@ -105,8 +106,10 @@ const ImmersiveLab = () => {
                     <li>To increase knowledge retention and customer engagement with learning materials, which in turn helps boost achievement and active learning.</li>
                     <li>To create a reusable storyboard template for explainer and summary videos.</li>
                 </ul>
-                <div className="embed-responsive embed-responsive-16by9">
-                    <iframe src="https://drive.google.com/file/d/1tw4WjYLqZV0xyMHLs7JU6k5kjPnhBqhY/preview" width="100%" height="600" allow="autoplay"></iframe>
+
+                <div>
+                    <img className='pb-5' src={gif1} />
+                    <img className='pb-5' src={gif2} />
                 </div>
 
                 <div className="border-bottom"></div>
@@ -131,17 +134,17 @@ const ImmersiveLab = () => {
 
             <div className="container pt-5">
                 <div className="row pb-5">
-                    <div className="col-md-6 d-flex mt-3 mt-md-0">
+                    <div className="col-md-6 d-flex mt-3 mt-md-0 previousBtn grey">
                         <p>
-                            <i className="zmdi zmdi-arrow-left mr-3 fs-18"></i>
+                            <i className="zmdi zmdi-arrow-left"></i>
                             <span className="fw-400 fs-18 caps">Previous</span>
                         </p>
                     </div>
-                    <div className="col-md-6 justify-content-md-end d-flex mt-3 mt-md-0">
-                        <a href="./">
-                            <span className="switchBtn">Next</span>
+                    <div className="col-md-6 justify-content-md-end d-flex mt-3 mt-md-0 nextBtn">
+                        <NavLink to="/product-design/cancer-care">
+                            <span>Next</span>
                             <i className="zmdi zmdi-arrow-right ml-3 fs-18"></i>
-                        </a>
+                        </NavLink>
                     </div>
                 </div>
             </div>

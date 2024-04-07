@@ -165,85 +165,14 @@ ul li {
 .grey {
     color: #636363;
 }
+
+.gifCard img {
+    height: 500px;
+}
+
+.text-link {
+    color: #50B9FF;
+    text-decoration: underline;
+}
 /* End of Project Details */
-
-
-
-/* 
-
-
-
-
-
-
-
-.text-link {
-    color: #50B9FF;
-    text-decoration: underline;
-}
-
-.switchBtn {
-    color: #FFFFFF;
-    
-}
-
-.groupHead {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-
-
-
-
-
-
-.pageHeading {
-    font-size: 24px;
-    letter-spacing: 4px;
-    font-weight: bold;
-}
-
-.pageDescription {
-    font-weight: 200;
-    font-size: 14px;
-    /* padding-bottom: 20px; */
-/* }
-
-.border-bottom {
-    color: #FFFFFF;
-    opacity: .5;
-    padding: 24px 0;
-}
-
-.large-text {
-    font-weight: bolder;
-    font-size: 32px;
-    padding: 20px 0 16px 0;
-}
-
-.text-link {
-    color: #50B9FF;
-    text-decoration: underline;
-}
-
-.switchBtn {
-    color: #FFFFFF;
-    
-}
-
-.headingText {
-    font-size: 32px;
-    padding: 60px 0 40px 0;
-}
-
-.illustrationImg {
-    margin-bottom: 40px;
-}
-
-
-
-.cardLink {
-    text-decoration: none;
-}  */ 
 

@@ -2,9 +2,12 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 import Footer from '../components/Footer';
-import Cover from '../assets/images/stanbic-cover.png';
-
 import './pages.style.css';
+
+import Cover from '../assets/images/stanbic-cover.png';
+import gif1 from '../assets/gifs/stanbic1.gif'
+import gif2 from '../assets/gifs/stanbic2.gif'
+import gif3 from '../assets/gifs/stanbic3.gif'
 
 function Stanbic() {
     return ( 
@@ -45,9 +48,12 @@ function Stanbic() {
                     <li>To create a more engaging experience and increase customer engagement with the app.</li>
                     <li>To create a stronger sense of brand.</li>
                 </ul>
-                {/* <div className="embed-responsive embed-responsive-16by9">
-                    <iframe src="https://drive.google.com/file/d/1tw4WjYLqZV0xyMHLs7JU6k5kjPnhBqhY/preview" width="100%" height="600" allow="autoplay"></iframe>
-                </div> */}
+
+                <div className='d-flex justify-content-between'>
+                    <img src={gif1} />
+                    <img src={gif2} />
+                    <img src={gif3} />
+                </div>
             </div>
 
             <div className="container pt-5">

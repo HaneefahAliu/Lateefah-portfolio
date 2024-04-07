@@ -3,6 +3,15 @@ import { NavLink } from 'react-router-dom';
 
 import Footer from '../components/Footer';
 import Cover from '../assets/images/swipe-cover.png';
+import gif1 from '../assets/gifs/Payment 1.gif'
+import gif2 from '../assets/gifs/PaymentFailed 1.gif'
+import gif3 from '../assets/gifs/Send1 1.gif'
+import gif4 from '../assets/gifs/Send 1.gif'
+import gif5 from '../assets/gifs/wallet 1.gif'
+import gif6 from '../assets/gifs/Save 1.gif'
+import gif7 from '../assets/gifs/empty 1.gif'
+import gif8 from '../assets/gifs/done 1.gif'
+
 
 import './pages.style.css';
 
@@ -45,9 +54,32 @@ function Swipe() {
                     <li>To create a stronger sense of brand and a connection between the product and users.</li>
                     <li>To create a more engaging experience and increase customer engagement with the email.</li>
                 </ul>
-                {/* <div className="embed-responsive embed-responsive-16by9">
-                    <iframe src="https://drive.google.com/file/d/1tw4WjYLqZV0xyMHLs7JU6k5kjPnhBqhY/preview" width="100%" height="600" allow="autoplay"></iframe>
-                </div> */}
+                <div className='row gifCard'>
+                    <div className='col-md-6 pb-5'>
+                        <img src={gif1} />
+                    </div>
+                    <div className='col-md-6 pb-5'>
+                        <img src={gif2} />
+                    </div>
+                    <div className='col-md-6 pb-5'>
+                        <img src={gif3} />
+                    </div>
+                    <div className='col-md-6 pb-5'>
+                        <img src={gif4} />
+                    </div>
+                    <div className='col-md-6 pb-5'>
+                        <img src={gif5} />
+                    </div>
+                    <div className='col-md-6 pb-5'>
+                        <img src={gif6} />
+                    </div>
+                    <div className='col-md-6 pb-5'>
+                        <img src={gif7} />
+                    </div>
+                    <div className='col-md-6 pb-5'>
+                        <img src={gif8} />
+                    </div>
+                </div>
             </div>
 
             <div className="container pt-5">

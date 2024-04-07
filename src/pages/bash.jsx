@@ -2,9 +2,13 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 import Footer from '../components/Footer';
-import Cover from '../assets/images/bash-cover.png';
-
 import './pages.style.css';
+
+import Cover from '../assets/images/bash-cover.png';
+import gif1 from '../assets/gifs/bash1.gif'
+import gif2 from '../assets/gifs/bash2.gif'
+import gif3 from '../assets/gifs/bash3.gif'
+import gif4 from '../assets/gifs/bash4.gif'
 
 function Bash() {
     return ( 
@@ -45,9 +49,13 @@ function Bash() {
                     <li>To create a more engaging experience and increase customer engagement with the app.</li>
                     <li>To create a stronger sense of brand.</li>
                 </ul>
-                {/* <div className="embed-responsive embed-responsive-16by9">
-                    <iframe src="https://drive.google.com/file/d/1tw4WjYLqZV0xyMHLs7JU6k5kjPnhBqhY/preview" width="100%" height="600" allow="autoplay"></iframe>
-                </div> */}
+
+                <div className='d-flex justify-content-between pt-5'>
+                    <img src={gif1} />
+                    <img src={gif2} />
+                    <img src={gif3} />
+                    <img src={gif4} />
+                </div>
             </div>
 
             <div className="container pt-5">

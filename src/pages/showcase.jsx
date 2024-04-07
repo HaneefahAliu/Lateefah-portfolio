@@ -3,6 +3,10 @@ import { NavLink } from 'react-router-dom';
 
 import Footer from '../components/Footer';
 import Cover from '../assets/images/bash-cover.png';
+import gif1 from '../assets/gifs/iphone-12--black.gif'
+import gif2 from '../assets/gifs/showcase2.gif'
+import gif3 from '../assets/gifs/showcase3.gif'
+import gif4 from '../assets/gifs/showcase4.gif'
 
 import './pages.style.css';
 
@@ -12,6 +16,13 @@ function Showcase() {
             <div className='container pb-4'>
                 <h2 className='pageHeading'>SHOWCASE</h2>
                 <p className='pageDescription'>Splash screens</p>
+
+                <div className='d-flex justify-content-between pt-5'>
+                    <img src={gif1} />
+                    <img src={gif2} />
+                    <img src={gif3} />
+                    <img src={gif4} />
+                </div>
             </div>
 
             <div className="container">

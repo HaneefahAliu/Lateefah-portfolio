@@ -2,9 +2,11 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 import Footer from '../components/Footer';
-import ImmersiveLab from '../assets/images/IL-cover.png';
-
 import './pages.style.css';
+
+import ImmersiveLab from '../assets/images/IL-cover.png';
+import gif1 from '../assets/gifs/immersive1.gif'
+import gif2 from '../assets/gifs/immersive2.gif'
 
 function Motion() {
     return (
@@ -46,8 +48,9 @@ function Motion() {
                     <li>Using videos creates a more engaging sensory experience for users than using text alone, they can see and hear the concept being explained and can process it in the same way they process everyday interactions.</li>
                     <li>To create a reusable storyboard template for explainer and summary videos.</li>
                 </ul>
-                <div className="embed-responsive embed-responsive-16by9">
-                    <iframe src="https://drive.google.com/file/d/1tw4WjYLqZV0xyMHLs7JU6k5kjPnhBqhY/preview" width="100%" height="600" allow="autoplay"></iframe>
+                <div>
+                    <img className='pb-5' src={gif1} />
+                    <img className='pb-5' src={gif2} />
                 </div>
             </div>
 
