@@ -1,13 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { IKImage, IKContext } from 'imagekitio-react'
 
 import Footer from '../components/Footer';
-import Cover from '../assets/images/bash-cover.png';
-import gif1 from '../assets/gifs/iphone-12--black.gif'
-import gif2 from '../assets/gifs/showcase2.gif'
-import gif3 from '../assets/gifs/showcase3.gif'
-import gif4 from '../assets/gifs/showcase4.gif'
-
 import './pages.style.css';
 
 function Showcase() {
@@ -18,10 +13,18 @@ function Showcase() {
                 <p className='pageDescription'>Splash screens</p>
 
                 <div className='d-flex justify-content-between pt-5'>
-                    <img src={gif1} />
-                    <img src={gif2} />
-                    <img src={gif3} />
-                    <img src={gif4} />
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/gifs/">
+                        <IKImage path="/iphone-12--black.gif"/>
+                    </IKContext>
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/gifs/">
+                        <IKImage path="/showcase2.gif"/>
+                    </IKContext>
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/gifs/">
+                        <IKImage path="/showcase3.gif"/>
+                    </IKContext>
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/gifs/">
+                        <IKImage path="/showcase4.gif"/>
+                    </IKContext>
                 </div>
             </div>
 

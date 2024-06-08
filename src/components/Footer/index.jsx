@@ -18,8 +18,8 @@ const Footer = () => {
                     <div className='col-6'>
                         <h1 className='heading'>Let's work together!</h1>
                         <div className='btn'>
-                            <a className='btnOutline' href=''>Email me</a>
-                            <a className='btnFilled' href=''>Download Resume</a>
+                            <a className='btnOutline' href='mailto:larhtyfarh@gmail.com'>Email me</a>
+                            <a className='btnFilled' target='_blank' href='https://docs.google.com/document/d/1Bl-OgL0saYx16f6gLf3IsH8eejHOEK6JBfAQZvQVz3E/edit'>Download Resume</a>
                         </div>
                     </div>
 
@@ -61,9 +61,9 @@ const Footer = () => {
                 <div className=' d-flex justify-content-between'>
                     <p className='groupItem'>Lateefah Aliu - 2024®</p>
                     <div className='social'>
-                        <a href='' >Linkedin</a>
-                        <a href='' >Dribbble</a>
-                        <a href='' >Instagram</a>
+                        <a target='_blank' href='https://www.linkedin.com/in/lateefahaliu' >Linkedin</a>
+                        <a target='_blank' href='https://dribbble.com/Larhtyfarh' >Dribbble</a>
+                        <a target='_blank' href='https://instagram.com/larhtyfarhart' >Instagram</a>
                     </div>
                 </div>
             </div>

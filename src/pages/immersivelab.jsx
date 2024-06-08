@@ -1,20 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { IKImage, IKContext } from 'imagekitio-react'
 
 import './pages.style.css';
 
 import Footer from '../components/Footer';
-
-import Cover from '../assets/images/IL-cover.png';
-import image1 from '../assets/images/IL1.png';
-import image2 from '../assets/images/IL2.png';
-import image3 from '../assets/images/IL3.png';
-import image4 from '../assets/images/IL4.png';
-import image5 from '../assets/images/IL5.png';
-import image6 from '../assets/images/IL6.png';
-import gif1 from '../assets/gifs/immersive1.gif'
-import gif2 from '../assets/gifs/immersive2.gif'
-import gif3 from '../assets/gifs/immersive3.gif';
 
 const ImmersiveLab = () => {
     return (
@@ -24,7 +14,11 @@ const ImmersiveLab = () => {
                 <p className='pageDescription'>Real-time measurement of human cyber capabilities</p>
             </div>
 
-            <img className="pb-5" src={Cover} />
+            <div className='pb-5'>
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                    <IKImage path="/IL-cover.png"/>
+                </IKContext>
+            </div>
 
             <div className="container">
                 <div className="row">
@@ -61,10 +55,26 @@ const ImmersiveLab = () => {
                     <li>Identify a method that help us to select the shades of colors based on accessibility and functionality.</li>
                 </ul>
 
-                <img className="pb-4" src={image1} />
-                <img className="pb-4" src={image2} />
-                <img className="pb-4" src={image3} />
-                <img className="pb-4" src={image4} />
+                <div className='pb-4'>
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                    <IKImage path="/IL1.png"/>
+                </IKContext>
+            </div>
+            <div className='pb-4'>
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                    <IKImage path="/IL2.png"/>
+                </IKContext>
+            </div>
+            <div className='pb-4'>
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                    <IKImage path="/IL3.png"/>
+                </IKContext>
+            </div>
+            <div className='pb-4'>
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                    <IKImage path="/IL4.png"/>
+                </IKContext>
+            </div>
 
                 <div className="border-bottom"></div>
             </div>
@@ -79,8 +89,14 @@ const ImmersiveLab = () => {
                     <li>To investigate and document where the success modal currently appears in the platform, define the rule of behaviour; when it should appear, map where in the platform they should be used according to the rule.</li>
                 </ul>
 
-                <img src={image5} />
-                <img style={{ width: '100%' }} src={gif3} />
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                    <IKImage path="/IL5.png"/>
+                </IKContext>
+                <div style={{ width: '100%' }}>
+                        <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                            <IKImage path="/immersive3.gif"/>
+                        </IKContext>
+                    </div>
                 <div className="border-bottom"></div>
             </div>
             
@@ -93,7 +109,9 @@ const ImmersiveLab = () => {
                     <li>To create a library of commonly used assets and environments for a consistent look accross all assets.</li>
                     <li> To create a color palette and define how color is used in scenario asset creation.</li>
                 </ul>
-                <img src={image6} />
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                    <IKImage path="/IL6.png"/>
+                </IKContext>
 
                 <div className="border-bottom"></div>
             </div>
@@ -108,8 +126,16 @@ const ImmersiveLab = () => {
                 </ul>
 
                 <div>
-                    <img className='pb-5' src={gif1} />
-                    <img className='pb-5' src={gif2} />
+                    <div className="pb-5">
+                        <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                            <IKImage path="/immersive1.gif"/>
+                        </IKContext>
+                    </div>
+                    <div className="pb-5">
+                        <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                            <IKImage path="/immersive2.gif"/>
+                        </IKContext>
+                    </div>
                 </div>
 
                 <div className="border-bottom"></div>

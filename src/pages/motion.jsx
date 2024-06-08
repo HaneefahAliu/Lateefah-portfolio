@@ -1,12 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { IKImage, IKContext } from 'imagekitio-react'
 
 import Footer from '../components/Footer';
 import './pages.style.css';
-
-import ImmersiveLab from '../assets/images/IL-cover.png';
-import gif1 from '../assets/gifs/immersive1.gif'
-import gif2 from '../assets/gifs/immersive2.gif'
 
 function Motion() {
     return (
@@ -16,7 +13,9 @@ function Motion() {
                 <p className='pageDescription'>Real-time measurement of human cyber capabilities</p>
             </div>
 
-            <img src={ImmersiveLab} />
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                    <IKImage path="/IL-cover.png"/>
+                </IKContext>
 
             <div className="container">
                 <div className="row pt-5">
@@ -49,8 +48,16 @@ function Motion() {
                     <li>To create a reusable storyboard template for explainer and summary videos.</li>
                 </ul>
                 <div>
-                    <img className='pb-5' src={gif1} />
-                    <img className='pb-5' src={gif2} />
+                <div className="pb-5">
+                        <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                            <IKImage path="/immersive1.gif"/>
+                        </IKContext>
+                    </div>
+                    <div className="pb-5">
+                        <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                            <IKImage path="/immersive2.gif"/>
+                        </IKContext>
+                    </div>
                 </div>
             </div>
 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import { IKImage, IKContext } from 'imagekitio-react'
 
-import Logo from '../../assets/images/logo.png';
 import './style.css';
 
 const Navbar = () => {
@@ -10,7 +10,11 @@ const Navbar = () => {
     return (
         <nav>
             <Link to="/">
-                <img className='logo' src={Logo} alt="Lateefah's Logo" />
+                <div className='logo'>
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                        <IKImage path="/logo.png"/>
+                    </IKContext>
+                </div>
             </Link>
             <div 
                 className="menu" 

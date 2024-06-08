@@ -1,17 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { IKImage, IKContext } from 'imagekitio-react'
 
 import Footer from '../components/Footer';
 import './pages.style.css';
-
-import Cover from '../assets/images/GB-cover.png'
-import image1 from '../assets/images/GB1.png'
-import image2 from '../assets/images/GB2.png'
-import image3 from '../assets/images/GB3.png'
-import image4 from '../assets/images/GB4.png'
-import image5 from '../assets/images/GB5.png'
-import image6 from '../assets/images/GB6.png'
-import image7 from '../assets/images/GB7.png'
 
 const GameBoard = () => {
     return (
@@ -21,7 +13,11 @@ const GameBoard = () => {
                 <p className='pageDescription'>Investigating accessibility challenges in games</p>
             </div>
 
-            <img className="pb-5" src={Cover} />
+            <div className='pb-5'>
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                    <IKImage path="/GB-cover.png"/>
+                </IKContext>
+            </div>
 
             <div className="container">
                 <div className="row">
@@ -56,7 +52,9 @@ const GameBoard = () => {
                     <p>Based on the insights and observations from the research, I created 4 personas that captured the users, their core needs, frustrations and technology proficieny. </p>
                 </div>
 
-                <img src={image1} />
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                    <IKImage path="/GB1.png"/>
+                </IKContext>
 
                 <div className='container pt-5'>
                     <h1 className="pageDescription pb-3">DESIGN</h1>
@@ -64,7 +62,9 @@ const GameBoard = () => {
                     <p>Using the research findings, I explored 2 design ideas to find the best approach to the solution. I started with some initial sketches to do some quick investigation of what would work. </p>
                 </div>
 
-                <img src={image2} />
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                    <IKImage path="/GB2.png"/>
+                </IKContext>
 
                 <div className='container pt-5'>
                     <h1 className="pageDescription pb-3">GUIDELINES</h1>
@@ -107,7 +107,9 @@ const GameBoard = () => {
                 <div className='container pt-5'>
                     <h1 className="pageDescription pb-3">VISUAL DESIGN</h1>
                 </div>
-                <img src={image3} />
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                    <IKImage path="/GB3.png"/>
+                </IKContext>
                 <div className='container pt-5'>
                     <p>The design style was focused onbeing accessible, in line with this a non-decorative and simple font “Manrope” was used which is legible but still fun enough to fit into the game aesthetic. o ensure all the colors are distinguishable, a Palette with colors that are unambiguous both to colorblind and non-colorblind users (Okabe, 2008) was explored. Furthermore, a color blindness simulator application Sim Daltonism (Sim Daltonism, 2020) was used to look at the design from the perspective of a colorblind person. </p>
                     <div className="border-bottom"></div>
@@ -121,7 +123,9 @@ const GameBoard = () => {
             
                 <div className='d-flex justify-content-between'>
                     <div className='testing-card'>
-                        <img src={image4} />
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                    <IKImage path="/GB4.png"/>
+                </IKContext>
                     </div>
                     <div>
                         <h1 className="groupHead">Redoing the Color adjustment </h1>
@@ -139,14 +143,20 @@ const GameBoard = () => {
             <div className='container pt-5'>
                 <h1 className="pageDescription">FINAL SCREENS</h1>
                 <h1 className="large-text">The solution</h1>
-                <img src={image5} />
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                    <IKImage path="/GB5.png"/>
+                </IKContext>
                 <div className="border-bottom"></div>
 
                 <h1 className="pageDescription pt-5">MULTI-PLATFORM ACCESSIBILITY</h1>
                 <h1 className="large-text">Mobile</h1>
-                <img src={image6} />
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                    <IKImage path="/GB6.png"/>
+                </IKContext>
                 <h1 className="large-text pt-5">Tablet</h1>
-                <img src={image7} />
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                    <IKImage path="/GB7.png"/>
+                </IKContext>
                 <div className="border-bottom"></div>
             </div>
 

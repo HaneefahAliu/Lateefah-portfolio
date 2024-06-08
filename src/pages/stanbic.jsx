@@ -1,13 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { IKImage, IKContext } from 'imagekitio-react'
 
 import Footer from '../components/Footer';
 import './pages.style.css';
-
-import Cover from '../assets/images/stanbic-cover.png';
-import gif1 from '../assets/gifs/stanbic1.gif'
-import gif2 from '../assets/gifs/stanbic2.gif'
-import gif3 from '../assets/gifs/stanbic3.gif'
 
 function Stanbic() {
     return ( 
@@ -17,7 +13,9 @@ function Stanbic() {
                 <p className='pageDescription'>Building personal, business and commercial banking products</p>
             </div>
 
-            <img src={Cover} />
+            <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                <IKImage path="/stanbic-cover.png"/>
+            </IKContext>
 
             <div className="container">
                 <div className="row pt-5">
@@ -50,9 +48,15 @@ function Stanbic() {
                 </ul>
 
                 <div className='d-flex justify-content-between'>
-                    <img src={gif1} />
-                    <img src={gif2} />
-                    <img src={gif3} />
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/gifs/">
+                        <IKImage path="/stanbic1.gif"/>
+                    </IKContext>
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/gifs/">
+                        <IKImage path="/stanbic2.gif"/>
+                    </IKContext>
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/gifs/">
+                        <IKImage path="/stanbic3.gif"/>
+                    </IKContext>
                 </div>
             </div>
 

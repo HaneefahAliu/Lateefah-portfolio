@@ -1,18 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { IKImage, IKContext } from 'imagekitio-react'
 
 import Footer from '../components/Footer';
-import Cover from '../assets/images/swipe-cover.png';
-import gif1 from '../assets/gifs/Payment 1.gif'
-import gif2 from '../assets/gifs/PaymentFailed 1.gif'
-import gif3 from '../assets/gifs/Send1 1.gif'
-import gif4 from '../assets/gifs/Send 1.gif'
-import gif5 from '../assets/gifs/wallet 1.gif'
-import gif6 from '../assets/gifs/Save 1.gif'
-import gif7 from '../assets/gifs/empty 1.gif'
-import gif8 from '../assets/gifs/done 1.gif'
-
-
 import './pages.style.css';
 
 function Swipe() {
@@ -23,7 +13,10 @@ function Swipe() {
                 <p className='pageDescription'>Software design and engineering house</p>
             </div>
 
-            <img src={Cover} />
+            <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                    <IKImage path="/swipe-cover.png"/>
+                </IKContext>
+
 
             <div className="container">
                 <div className="row pt-5">
@@ -56,28 +49,44 @@ function Swipe() {
                 </ul>
                 <div className='row gifCard'>
                     <div className='col-md-6 pb-5'>
-                        <img src={gif1} />
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/gifs/">
+                        <IKImage path="/Payment 1.gif"/>
+                    </IKContext>
                     </div>
                     <div className='col-md-6 pb-5'>
-                        <img src={gif2} />
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/gifs/">
+                        <IKImage path="/PaymentFailed 1.gif"/>
+                    </IKContext>
                     </div>
                     <div className='col-md-6 pb-5'>
-                        <img src={gif3} />
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/gifs/">
+                        <IKImage path="/Send1 1.gif"/>
+                    </IKContext>
                     </div>
                     <div className='col-md-6 pb-5'>
-                        <img src={gif4} />
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/gifs/">
+                        <IKImage path="/Send 1.gif"/>
+                    </IKContext>
                     </div>
                     <div className='col-md-6 pb-5'>
-                        <img src={gif5} />
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/gifs/">
+                        <IKImage path="/wallet 1.gif"/>
+                    </IKContext>
                     </div>
                     <div className='col-md-6 pb-5'>
-                        <img src={gif6} />
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/gifs/">
+                        <IKImage path="/Save 1.gif"/>
+                    </IKContext>
                     </div>
                     <div className='col-md-6 pb-5'>
-                        <img src={gif7} />
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/gifs/">
+                        <IKImage path="/empty 1.gif"/>
+                    </IKContext>
                     </div>
                     <div className='col-md-6 pb-5'>
-                        <img src={gif8} />
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/gifs/">
+                        <IKImage path="/done 1.gif"/>
+                    </IKContext>
                     </div>
                 </div>
             </div>

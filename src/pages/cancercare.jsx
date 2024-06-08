@@ -1,27 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { IKImage, IKContext } from 'imagekitio-react'
 
 import Footer from '../components/Footer';
 import './pages.style.css';
-
-import Cover from '../assets/images/CC-cover.png';
-import CC1 from '../assets/images/CC-1.png'
-import CC2 from '../assets/images/CC2.png'
-import CC3 from '../assets/images/CC3.png'
-import CC4 from '../assets/images/CC4.png'
-import CC5 from '../assets/images/CC5.png'
-import CC6 from '../assets/images/CC6.png'
-import CC7 from '../assets/images/CC7.png'
-import CC8 from '../assets/images/CC8.png'
-import CC9 from '../assets/images/CC9.png'
-import CC10 from '../assets/images/CC10.png'
-import CC11 from '../assets/images/CC11.png'
-import CC12 from '../assets/images/CC12.png'
-import CC13 from '../assets/images/CC13.png'
-import gif1 from '../assets/gifs/cc1.gif'
-import gif2 from '../assets/gifs/cc2.gif'
-import gif3 from '../assets/gifs/cc3.gif'
-import gif4 from '../assets/gifs/cc4.gif'
 
 const CancerCare = () => {
     return (
@@ -31,7 +13,9 @@ const CancerCare = () => {
                 <p className='pageDescription'>Health management solution for Cancer</p>
             </div>
 
-            <img className="pb-5" src={Cover} />
+            <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                <IKImage path="/CC-cover.png"/>
+            </IKContext>
 
             <div className="container">
                 <div className="row">
@@ -75,13 +59,17 @@ const CancerCare = () => {
                             </ul>
                         </div>
                         <div className="small-gif">
-                            <img src={gif1} />
+                            <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/gifs/">
+                                <IKImage path="/cc1.gif"/>
+                            </IKContext>
                         </div>
                     </div>
                     
                     <div className="d-flex justify-content-between pb-5">
                         <div className="small-gif">
-                            <img src={gif2} />
+                            <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/gifs/">
+                                <IKImage path="/cc2.gif"/>
+                            </IKContext>
                         </div>
                         <div className="">
                             <h1 className="groupHead">Simple dashboard</h1>
@@ -99,13 +87,17 @@ const CancerCare = () => {
                             </ul>
                         </div>
                         <div className="small-gif">
-                            <img src={gif3} />
+                            <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/gifs/">
+                                <IKImage path="/cc3.gif"/>
+                            </IKContext>
                         </div>
                     </div>
 
                     <div className="d-flex justify-content-between pb-5">
                         <div className="small-gif">
-                            <img src={gif4} />
+                            <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/gifs/">
+                                <IKImage path="/cc4.gif"/>
+                            </IKContext>
                         </div>
                         <div className="">
                             <h1 className="groupHead">Share Reports</h1>
@@ -125,13 +117,17 @@ const CancerCare = () => {
                     <h1 className="pageDescription">THE APPROACH</h1>
                 </div>
 
-                <img src={CC1} />
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                    <IKImage path="/CC-1.png"/>
+                </IKContext>
 
                 <div className='container pt-5 pb-4'>
                     <h1 className="pageDescription">COMPETITIVE ANALYSIS</h1>
                     <h1 className="large-text">Analyzing the problem space and current solutions</h1>
                     <p className="pb-3">I analyzed 3 applications around health management, brreaking down and analyzing the directions they’ve taken, to identify what worked, and things that didn’t. Taking the successes from this application as well as some <b>Donald Norman’s principles i.e Visibility, Affordance, and Consistency,</b> I was able define the principle that would guide our design approach.</p>
-                    <img className='pb-3' src={CC2} />
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                        <IKImage path="/CC2.png"/>
+                    </IKContext>
 
                     <div className="border-bottom"></div>
                 </div>
@@ -154,7 +150,9 @@ const CancerCare = () => {
                     </ol>
                 </div>
 
-                <img src={CC3} />
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                    <IKImage path="/CC3.png"/>
+                </IKContext>
 
                 <div className='container pt-5 pb-4'>
                     <h1 className="pageDescription">MAIN INSIGHTS</h1>
@@ -197,14 +195,18 @@ const CancerCare = () => {
                     <p className="pb-3">Based on the insights and observations from the research, I created 3 personas that captured the users, their goals and motivation. I also formed empathy maps to understand their needs and frustrations.</p>
                 </div>
 
-                <img src={CC4} />
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                    <IKImage path="/CC4.png"/>
+                </IKContext>
 
                 <div className='container pt-5 pb-4'>
                     <h1 className="pageDescription pb-5">INFORMATION ARCHITECTURE & JOURNEY MAP</h1>
                     <p className="pb-3">I organized an online Card sort session with 6 participants to observe patterns and language they used, to determine the best way to organize and categorize the features. Also, using the personas and empathy maps, I made the journey map highlighting the pain points and the oppurtunities for improvement.</p>
                 </div>
 
-                <img src={CC5} />
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                        <IKImage path="/CC5.png"/>
+                    </IKContext>
 
                 <div className='container pt-5 pb-4'>
                     <h1 className="pageDescription">DESIGN</h1>
@@ -212,19 +214,25 @@ const CancerCare = () => {
                     <p className="pb-3">Using the research findings, I explored 2 design ideas to find the best approach to the solution. I started with some initial sketches to do some quick investigation of what would work. </p>
                 </div>
 
-                <img src={CC6} />
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                        <IKImage path="/CC6.png"/>
+                    </IKContext>
 
                 <div className='container'>
                     <p className="pt-5">I conducted an heuristic evaluation and peer review sessions with 2 professors of HCI and 4 HCI Master’s students to test the two ideas. I moved forward with the second idea.</p>
                 </div>
 
-                <img src={CC7} />
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                        <IKImage path="/CC7.png"/>
+                    </IKContext>
 
                 <div className='container'>
                     <p className="pageDescription pt-5">VISUAL DESIGN</p>
                 </div>
 
-                <img src={CC8} />
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                        <IKImage path="/CC8.png"/>
+                    </IKContext>
 
                 <div className='container'>
                     <p className="pt-5">The design style was focused on communicating a friendly, mordern and legible tone as CancerCare will be used by users of all ages. The friendly design allows users feel connected to the product which would makes it easier for them to keep using the product to enhance their every day lives. The vibrant illustrations combined with texts on the cards helps older users alongside people with visual impairments or non-native english speakers understand what each element does.</p>
@@ -241,11 +249,15 @@ const CancerCare = () => {
                     <p>I conducted the test sessions using Maze which automated the collection of task completion times, user’s paths, heat maps, misclick rates so a combination of these and the SUS form participants completed at the end of the session formed the quantitative data.</p>
                 </div>
 
-                <img className='pb-3' src={CC9} />
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                        <IKImage path="/CC9.png"/>
+                    </IKContext>
 
                 <div className='container'>
                     <div className='d-flex justify-content-between testing-card pt-5'>
-                        <img src={CC10} />
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                        <IKImage path="/CC10.png"/>
+                    </IKContext>
                         <div>
                             <p className='boldText'>Simplified visuals</p>
                             <ul>
@@ -268,11 +280,15 @@ const CancerCare = () => {
                                 <li>Full details off medication pops up when a drug is tapped on so you can quickly look through it and go back without going to a different page.</li>
                             </ul>
                         </div>
-                        <img src={CC11} />
+                        <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                        <IKImage path="/CC11.png"/>
+                    </IKContext>
                     </div>
 
                     <div className='d-flex justify-content-between testing-card'>
-                        <img src={CC12} />
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                        <IKImage path="/CC12.png"/>
+                    </IKContext>
                         <div>
                             <p className='boldText'>Larger icons and texts</p>
                             <ul>
@@ -289,7 +305,9 @@ const CancerCare = () => {
                 <div className='container pt-5 pb-4'>
                     <h1 className="pageDescription">FINAL SCREENS</h1>
                     <h1 className="large-text">The solution</h1>
-                    <img src={CC13} />
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                        <IKImage path="/CC13.png"/>
+                    </IKContext>
                     <p className='pageDescription pt-5'>Link to full prototype <a href="about.html" className="text-link">here</a></p>
 
                     <div className="border-bottom"></div>

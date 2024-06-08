@@ -1,20 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { IKImage, IKContext } from 'imagekitio-react'
 
 import Footer from '../components/Footer';
 import './pages.style.css';
-
-import Cover from '../assets/images/VI-cover.png'
-import VI1 from '../assets/images/VI1.png'
-import VI2 from '../assets/images/VI2.png'
-import VI3 from '../assets/images/VI3.png'
-import VI4 from '../assets/images/VI4.png'
-import VI5 from '../assets/images/VI5.png'
-import VI6 from '../assets/images/VI6.png'
-import VI7 from '../assets/images/VI7.png'
-import VI8 from '../assets/images/VI8.png'
-import VI9 from '../assets/images/VI9.png'
-import VI10 from '../assets/images/VI10.png'
 
 const VoiceIt = () => {
     return (
@@ -24,7 +13,11 @@ const VoiceIt = () => {
                 <p className='pageDescription'>Voice Interaction techniques for product designers.</p>
             </div>
 
-            <img className="pb-5" src={Cover} />
+            <div className='pb-5'>
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                    <IKImage path="/VI-cover.png"/>
+                </IKContext>
+            </div>
 
             <div className="container">
                 <div className="row">
@@ -59,7 +52,9 @@ const VoiceIt = () => {
 
                 <div className="d-flex justify-content-between pb-5">
                     <div className="testing-card">
-                        <img src={VI1} />
+                        <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                            <IKImage path="/VI1.png"/>
+                        </IKContext>
                     </div>
                     <div className="">
                         <h1 className="groupHead">Grid</h1>
@@ -79,13 +74,17 @@ const VoiceIt = () => {
                         </ul>
                     </div>
                     <div className="testing-card">
-                        <img src={VI2} />
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                            <IKImage path="/VI2.png"/>
+                        </IKContext>
                     </div>
                 </div>
 
                 <div className="d-flex justify-content-between">
                     <div className="testing-card">
-                        <img src={VI3} />
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                            <IKImage path="/VI3.png"/>
+                        </IKContext>
                     </div>
                     <div className="">
                         <h1 className="groupHead">Continuous</h1>
@@ -104,7 +103,11 @@ const VoiceIt = () => {
                     <h1 className="pageDescription">THE APPROACH</h1>
                 </div>
 
-                <img className='pt-4' src={VI4} />
+                <div className="pb-4">
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                            <IKImage path="/VI4.png"/>
+                        </IKContext>
+                        </div>
 
                 <div className='container pt-5'>
                     <h1 className="pageDescription">WHITE PAPER RESEARCH</h1>
@@ -135,7 +138,9 @@ const VoiceIt = () => {
                     </ol>
                 </div>
 
-                <img src={VI5} />
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                            <IKImage path="/VI5.png"/>
+                        </IKContext>
 
                 <div className='container pt-5'>
                     <h1 className="pageDescription">MAIN INSIGHTS</h1>
@@ -177,7 +182,9 @@ const VoiceIt = () => {
                     <p className='pb-3'>I explored 3 different approaches: Grid, Descriptive, Continuous to speech interaction for the proposed interface. I then designed and implemented the interface using details that were adopted from other creative applications and user requirements from the Initial study. The design was implemented and tested using AdobeXD’s voice prototyping feature, which used Speech Recognition that provided the system with the ability to recognize voice or speech input and perform the appropriate action. </p>
                 </div>
 
-                <img src={VI6} />
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                            <IKImage path="/VI6.png"/>
+                        </IKContext>
 
                 <div className='container pt-5'>
                     <h1 className="pageDescription">TESTING + HYPOTHESIS</h1>
@@ -218,13 +225,17 @@ const VoiceIt = () => {
                             </ul>
                         </div>
                         <div className="testing-card">
-                            <img src={VI7} />
+                        <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                            <IKImage path="/VI7.png"/>
+                        </IKContext>
                         </div>
                     </div>
 
                     <div className="d-flex justify-content-between">
                         <div className="testing-card">
-                            <img src={VI8} />
+                        <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                            <IKImage path="/VI8.png"/>
+                        </IKContext>
                         </div>
                         <div className="">
                             <h1 className="groupHead">Descriptive: Shorter Commands</h1>
@@ -242,7 +253,9 @@ const VoiceIt = () => {
                             </ul>
                         </div>
                         <div className="testing-card">
-                            <img src={VI9} />
+                        <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                            <IKImage path="/VI9.png"/>
+                        </IKContext>
                         </div>
                     </div>
                 </div>
@@ -252,7 +265,9 @@ const VoiceIt = () => {
                 <div className='container pt-5 pb-4'>
                     <h1 className="pageDescription">FINAL SCREENS</h1>
                     <h1 className="large-text">The solution</h1>
-                    <img src={VI10} />
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                            <IKImage path="/VI10.png"/>
+                        </IKContext>
                     <p className='pageDescription pt-5'>Link to full prototype <a href="about.html" className="text-link">here</a></p>
 
                     <div className="border-bottom"></div>

@@ -1,8 +1,5 @@
 import React from 'react';
-
-
-import Lateefah from '../assets/images/Lateefah.png';
-import about from '../assets/images/about.png';
+import { IKImage, IKContext } from 'imagekitio-react'
 
 import './pages.style.css';
 import Footer from '../components/Footer';
@@ -24,11 +21,13 @@ const About = () => {
                             <a className="" href=" https://dribbble.com/Larhtyfarh" target="_blank"><i class="zmdi zmdi-dribbble fs-24"></i></a>
                             <a className="" href="https://www.linkedin.com/in/lateefahaliu" target="_blank"><i class="zmdi zmdi-linkedin-box fs-24"></i></a>
                             <a className="" href=" https://instagram.com/larhtyfarhart" target="_blank"><i class="zmdi zmdi-instagram fs-24"></i></a>
-                            <a className="" href="" target="_blank">Resume</a>
+                            <a className="" href="https://docs.google.com/document/d/1Bl-OgL0saYx16f6gLf3IsH8eejHOEK6JBfAQZvQVz3E/edit" target="_blank">Resume</a>
                         </div>
                     </div>
                     <div className='col-md-4 aboutImg'>
-                        <img src={Lateefah} />
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                        <IKImage path="/Lateefah.png"/>
+                    </IKContext>
                     </div>
                 </div>
 
@@ -40,7 +39,9 @@ const About = () => {
             </div>
 
             <div className='px-5 pb-5'>
-                <img src={about} />
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                    <IKImage path="/about.png"/>
+                </IKContext>
             </div>
 
             <div className='pt-5'>

@@ -1,14 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { IKImage, IKContext } from 'imagekitio-react'
 
 import Footer from '../components/Footer';
 import './pages.style.css';
-
-import Cover from '../assets/images/bash-cover.png';
-import gif1 from '../assets/gifs/bash1.gif'
-import gif2 from '../assets/gifs/bash2.gif'
-import gif3 from '../assets/gifs/bash3.gif'
-import gif4 from '../assets/gifs/bash4.gif'
 
 function Bash() {
     return ( 
@@ -18,7 +13,11 @@ function Bash() {
                 <p className='pageDescription'>Trivia games</p>
             </div>
 
-            <img src={Cover} />
+            <div className='pb-5'>
+                <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
+                    <IKImage path="/bash-cover.png"/>
+                </IKContext>
+            </div>
 
             <div className="container">
                 <div className="row pt-5">
@@ -51,10 +50,18 @@ function Bash() {
                 </ul>
 
                 <div className='d-flex justify-content-between pt-5'>
-                    <img src={gif1} />
-                    <img src={gif2} />
-                    <img src={gif3} />
-                    <img src={gif4} />
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/gifs/">
+                        <IKImage path="/bash1.gif"/>
+                    </IKContext>
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/gifs/">
+                        <IKImage path="/bash2.gif"/>
+                    </IKContext>
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/gifs/">
+                        <IKImage path="/bash3.gif"/>
+                    </IKContext>
+                    <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/gifs/">
+                        <IKImage path="/bash4.gif"/>
+                    </IKContext>
                 </div>
             </div>
 
