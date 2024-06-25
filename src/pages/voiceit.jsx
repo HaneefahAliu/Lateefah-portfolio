@@ -50,13 +50,13 @@ const VoiceIt = () => {
                 <h1 className="pageDescription">THE SOLUTION</h1>
                 <h1 className="large-text pb-5">Explored 3 different approaches to speech input for the proposed interface.</h1>
 
-                <div className="d-flex justify-content-between pb-5">
-                    <div className="testing-card">
+                <div className="row pb-5">
+                    <div className="testing-card col-md-6">
                         <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
                             <IKImage path="/VI1.png"/>
                         </IKContext>
                     </div>
-                    <div className="">
+                    <div className="col-md-4">
                         <h1 className="groupHead">Grid</h1>
                         <ul>
                             <li>This was implemented by showing gridlines on the selected item along with numbers for each horizontal and vertical line.</li>
@@ -65,28 +65,28 @@ const VoiceIt = () => {
                     </div>
                 </div>
 
-                <div className="d-flex justify-content-between pb-5">
-                    <div className="">
+                <div className="row pb-5">
+                    <div className="col-md-4">
                         <h1 className="groupHead">Descriptive</h1>
                         <ul>
                             <li>This approach allowed users  “describe” what they want to be done to the system. </li>
                             <li>The command followed the line of “Resize”, followed by “bigger” or “smaller” depending on the task then a percentage they wanted the shape’s width and height resized to.</li>
                         </ul>
                     </div>
-                    <div className="testing-card">
+                    <div className="testing-card col-md-6">
                     <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
                             <IKImage path="/VI2.png"/>
                         </IKContext>
                     </div>
                 </div>
 
-                <div className="d-flex justify-content-between">
-                    <div className="testing-card">
+                <div className="row">
+                    <div className="testing-card col-md-6">
                     <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
                             <IKImage path="/VI3.png"/>
                         </IKContext>
                     </div>
-                    <div className="">
+                    <div className="col-md-4">
                         <h1 className="groupHead">Continuous</h1>
                         <ul>
                             <li>The continuous approach is somewhat similar to the descriptive method.</li>
@@ -216,28 +216,28 @@ const VoiceIt = () => {
                     </ul>
                     <p>Based on the feedback I continually iterated the design tomake some improvements:</p>
 
-                    <div className="d-flex justify-content-between pt-5">
-                        <div className="">
+                    <div className="row pt-5">
+                        <div className="col-md-4">
                             <h1 className="groupHead">Grid: Need for clarity</h1>
                             <ul>
                                 <li>A need for clarity in the grid approach, providing users with an option to select if they want to resize the object larger or smaller first before the grid shows up, allows the interface to only show the necessary grid lines. </li>
                                 <li>Gridlines are sometimes unclear or not visible when a smaller object is selected, an option to zoom in to them or just make the lines and numbers bolder would make it better.</li>
                             </ul>
                         </div>
-                        <div className="testing-card">
+                        <div className="testing-card col-md-6">
                         <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
                             <IKImage path="/VI7.png"/>
                         </IKContext>
                         </div>
                     </div>
 
-                    <div className="d-flex justify-content-between">
-                        <div className="testing-card">
+                    <div className="row">
+                        <div className="testing-card col-md-6">
                         <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
                             <IKImage path="/VI8.png"/>
                         </IKContext>
                         </div>
-                        <div className="">
+                        <div className="col-md-4">
                             <h1 className="groupHead">Descriptive: Shorter Commands</h1>
                             <ul>
                                 <li>Making the commands shorter, as it currently requires a long string of commands to perform the resize action. “It can get a bit confusing when using the descriptive approach, as you have to say four to five words at a time to perform an action”.</li>
@@ -245,14 +245,14 @@ const VoiceIt = () => {
                         </div>
                     </div>
 
-                    <div className="d-flex justify-content-between pt-5">
-                        <div className="">
+                    <div className="row pt-5">
+                        <div className="col-md-4">
                             <h1 className="groupHead">Continuous: Adding metrics around border</h1>
                             <ul>
                                 <li>Showing the metrics in the continuous approach, that is the width and height of an object would make this approach significantly better. Adding the width and height size around the border of the object as it changes size can help to show what size it currently is and you can better tell when to stop.</li>
                             </ul>
                         </div>
-                        <div className="testing-card">
+                        <div className="testing-card col-md-6">
                         <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
                             <IKImage path="/VI9.png"/>
                         </IKContext>

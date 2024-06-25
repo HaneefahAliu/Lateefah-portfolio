@@ -8,9 +8,9 @@ function Illustration() {
     return (
         <div>
             <div className='container'>
-                <h1 className='headingText'>Showcase</h1>
+                <h1 className='headingText pt-5 pb-4'>Showcase</h1>
             </div>
-            <div>
+            <div className='illustrationImages'>
                 <IKContext urlEndpoint="https://ik.imagekit.io/0ylai1f4i/Lateefah/">
                     <IKImage path="/illustration-1.png"/>
                 </IKContext>

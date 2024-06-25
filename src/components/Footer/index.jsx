@@ -63,7 +63,7 @@ const Footer = () => {
                     <div className='social'>
                         <a target='_blank' href='https://www.linkedin.com/in/lateefahaliu' >Linkedin</a>
                         <a target='_blank' href='https://dribbble.com/Larhtyfarh' >Dribbble</a>
-                        <a target='_blank' href='https://instagram.com/larhtyfarhart' >Instagram</a>
+                        <a target='_blank' href='https://www.instagram.com/lateefahaliu/' >Instagram</a>
                     </div>
                 </div>
             </div>

@@ -94,7 +94,7 @@
 
 .aboutImg img {
     width: 500px;
-    height: 650px;
+    /* height: 500px; */
 }
 
 .socialIcons a {
@@ -107,6 +107,7 @@
     font-size: 20px;
 }
 /* End of About */
+
 
 /* Project Details */
 .pageHeading {
@@ -212,10 +213,10 @@ ul li {
     padding-bottom: 80px;
 }
 
-.testing-card img {
+/* .testing-card img {
     width: 600px;
     height: 400px;
-}
+} */
 /* End of Project Details */
 
 /* Contact */
@@ -256,3 +257,10 @@ ul li {
     color: #2E56E4;
 }
 /* End of Contact */
+
+
+/* Illustration */
+.illustrationImages * {
+    padding-bottom: 40px;
+}
+/* End of Illustration */

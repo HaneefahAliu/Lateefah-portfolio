@@ -20,7 +20,7 @@ const About = () => {
                             <a className="" href="mailto:larhtyfarh@gmail.com" target="_blank"><i class="zmdi zmdi-email fs-24"></i></a>
                             <a className="" href=" https://dribbble.com/Larhtyfarh" target="_blank"><i class="zmdi zmdi-dribbble fs-24"></i></a>
                             <a className="" href="https://www.linkedin.com/in/lateefahaliu" target="_blank"><i class="zmdi zmdi-linkedin-box fs-24"></i></a>
-                            <a className="" href=" https://instagram.com/larhtyfarhart" target="_blank"><i class="zmdi zmdi-instagram fs-24"></i></a>
+                            <a className="" href="https://www.instagram.com/lateefahaliu/" target="_blank"><i class="zmdi zmdi-instagram fs-24"></i></a>
                             <a className="" href="https://docs.google.com/document/d/1Bl-OgL0saYx16f6gLf3IsH8eejHOEK6JBfAQZvQVz3E/edit" target="_blank">Resume</a>
                         </div>
                     </div>
